@@ -10,7 +10,7 @@ Mental Help is a website that allows you to log your feelings and cope with your
 
 ## Wireframes
 
-[a link](https://www.figma.com/file/ucVN5TcRE0xTE0eBdLH8Jx/Untitled?node-id=0%3A1)
+[Wireframe Figma link](https://www.figma.com/file/ucVN5TcRE0xTE0eBdLH8Jx/Untitled?node-id=0%3A1)
 
 ## Component Hierarchy
 
@@ -33,7 +33,7 @@ Using Airtable API
 {
 "id": "reccIZe3RDWN3t0Fg",
 "fields": {
-"gratitudeLog": "I'm grateful for having a roof over my"
+"gratitudeLog": "I'm grateful for having a roof over my head"
 },
 "createdTime": "2020-10-09T01:12:05.000Z"
 },
