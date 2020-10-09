@@ -99,8 +99,16 @@ Time frames are also key in the development cycle. You have limited time to code
 
 ### Strengths:
 
+I am determined to achieve all my MVP and Post MVP, i have a clear idea of what I want the app to display!
+
 ### Weaknesses:
+
+I am afraid of setting my post MVP higher of what I can actually achieve in a week!
 
 ### Opportunities:
 
+Learn more about React and applying the different techniques exposed on class.
+
 ### Threats:
+
+Making the app responsive as I want it to be and the navigation bar.
