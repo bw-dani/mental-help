@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Gratitude from "./Gratitude";
 
 function GResp(props) {
   const [gratitude, setGratitude] = useState([]);
@@ -18,7 +19,7 @@ function GResp(props) {
       console.log(response.data.records);
     };
     getLog();
-  }, []);
+  }, [fetchGratitude]);
 
   return (
     <div>

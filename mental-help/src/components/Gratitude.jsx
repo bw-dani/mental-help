@@ -20,7 +20,8 @@ function Gratitude(props) {
         },
       }
     );
-    // props.setFetchGratitude(!props.fetchGratitude);
+
+    props.setFetchGratitude(!props.fetchGratitude);
     setGratitudeLog("");
   };
 
@@ -37,7 +38,10 @@ function Gratitude(props) {
         />
         <button type="submit">Add Gratitude</button>
       </form>
-      <GResp />
+      {/* <GResp /> */}
+      {props.gratitudeData.map((grat) => (
+        <li>{grat.fields.gratitudeLog}</li>
+      ))}
     </div>
   );
 }
