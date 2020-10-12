@@ -1,0 +1,27 @@
+html {
+  background-color: #22292b;
+}
+.homepageDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+.hp-h1 {
+  font-size: 4rem;
+  color: whitesmoke;
+}
+.homepage-p {
+  margin: 0 90px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+.divButton {
+  display: flex;
+  align-self: center;
+  margin-top: 5%;
+}
+.start-btn {
+  width: 100%;
+}
