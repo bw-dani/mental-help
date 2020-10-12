@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import GResp from "./GResp";
 import axios from "axios";
+import NavBar from "./NavBar";
 
 function Gratitude(props) {
   const [gratitudeLog, setGratitudeLog] = useState("");
@@ -21,12 +21,13 @@ function Gratitude(props) {
       }
     );
 
-    props.setFetchGratitude(!props.fetchGratitude);
+    props.setFetchData(!props.fetchData);
     setGratitudeLog("");
   };
 
   return (
     <div>
+      <NavBar/>
       <h1> Gratitude Log:</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="gratitude log"></label>
@@ -38,9 +39,9 @@ function Gratitude(props) {
         />
         <button type="submit">Add Gratitude</button>
       </form>
-      {/* <GResp /> */}
+      
       {props.gratitudeData.map((grat) => (
-        <li>{grat.fields.gratitudeLog}</li>
+        <p>{grat.fields.gratitudeLog}</p>
       ))}
     </div>
   );
