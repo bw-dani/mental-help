@@ -50,7 +50,7 @@ function App() {
         </Route>
 
         <Route path="/components/Gratitude">
-          <Gratitude
+          <Gratitude className="grat-div"
             gratitudeData={gratitude}
             fetchData={fetchData}
             setFetchData={setFetchData}

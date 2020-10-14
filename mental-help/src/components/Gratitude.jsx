@@ -29,21 +29,25 @@ function Gratitude(props) {
   return (
     <div className="gratitudeDiv">
       <NavBar/>
-      <h1> Gratitude Log:</h1>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="gratitude log"></label>
+      <h1 className="title"> Gratitude Log:</h1>
+
+      <form onSubmit={handleSubmit} className="grat-form">
+        
         <input
+          className="grat-input"
           name="gratitude log"
           type="text"
           value={gratitudeLog}
-          onChange={(e) => setGratitudeLog(e.target.value)}
-        />
-        <button type="submit">Add Gratitude</button>
-      </form>
+            onChange={(e) => setGratitudeLog(e.target.value)}
+            placeholder={"What are grateful for today?"}
+          />
       
+        <button type="submit" className="add-btn">Add Gratitude</button>
+      </form>
+      <div className="input-return">
       {props.gratitudeData.map((grat) => (
-        <p>{grat.fields.gratitudeLog}</p>
-      ))}
+        <span >{grat.fields.gratitudeLog}</span>
+      ))}</div>
     </div>
   );
 }

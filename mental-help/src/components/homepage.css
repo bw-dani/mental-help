@@ -1,5 +1,24 @@
 html {
-  background-color: #32435b;
+  background: linear-gradient(
+    -45deg,
+    rgb(76, 93, 86),
+    rgb(85, 83, 65),
+    rgb(98, 83, 74),
+    rgba(50, 67, 91, 1)
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .homepageDiv {
   display: flex;

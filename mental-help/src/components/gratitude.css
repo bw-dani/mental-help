@@ -1,0 +1,69 @@
+.title {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.grat-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.grat-input {
+  width: 500px;
+  margin: 0 0;
+  font-family: Lato;
+  font-size: 1.4em;
+}
+input {
+  width: 300px;
+  height: 40px;
+  margin-top: 100px;
+  font-family: Lato;
+  font-size: 1.8em;
+  background-color: transparent;
+  border: none;
+  border-top: 3px solid #f3f2f5;
+  border-bottom: 3px solid #f3f2f5;
+  outline: none;
+  color: #f3f2f5;
+  padding-left: 10px;
+}
+input:focus {
+  top: -130px;
+  font-size: 1.2em;
+  transition: all 0.3s;
+}
+.add-btn {
+  display: flex;
+  justify-content: center;
+  background-color: #f3f2f5;
+  color: #a58c7e;
+  font-size: larger;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.input-return {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 3%;
+  line-height: 2;
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  background: inherit;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+span {
+  color: white;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
