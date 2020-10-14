@@ -1,24 +1,21 @@
 html {
-  background-image: url("/brain.png");
-  background-repeat: no-repeat;
-  background-position: 5% 190%;
   background-color: #32435b;
-  /* max-width: 100%; */
 }
 .homepageDiv {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 5%;
+  margin-top: 0;
   backdrop-filter: blur(1.2px);
+  height: 1000px;
 }
 .hp-h1 {
   font-family: "Raleway", sans-serif;
   font-size: 5rem;
   color: #f3f2f5;
   filter: brightness(500%);
-  text-shadow: 2px 2px 0 rgb(165, 140, 126);
+  text-shadow: 4px 4px 0 rgba(2, 1, 1, 0.952);
 }
 .homepage-p {
   margin: 0 90px;
@@ -27,7 +24,7 @@ html {
   color: #f3f2f5;
   font-family: "Eczar", serif;
   filter: brightness(500%);
-  text-shadow: 1px 1px 0 rgb(165, 140, 126);
+  text-shadow: 4px 4px 0 rgba(2, 1, 1, 0.952);
 }
 
 .divButton {
@@ -49,6 +46,7 @@ html {
 
 .link-btn {
   color: #f3f2f5;
+  text-shadow: 4px 4px 0 rgba(2, 1, 1, 0.952);
 }
 .link-btn,
 .start-btn {

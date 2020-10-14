@@ -19,6 +19,7 @@ function App() {
   const [affirmations, setAffirmations] = useState([])
   const [doneList, setDoneList] = useState([])
   const [fetchData, setFetchData] = useState(false);
+  
 
   useEffect(() => {
     const getLog = async () => {

@@ -1,10 +1,11 @@
 import React from 'react';
 import NavBar from './NavBar';
+import './resources.css'
 
 function Resources(props) {
   return (
-    <>
-    <div>
+    <div className='main-rsc-div'>
+    <div >
       <NavBar/>
       <h1>Resources:</h1>
       <h2>GROUNDING TECHNIQUES FOR WHEN YOU FEEL ANXIOUS OR OVERWHELMED:</h2>
@@ -23,7 +24,7 @@ function Resources(props) {
       <div>
         <h1>Find Help: </h1>  
       </div>
-    </>
+    </div>
   );
 }
 

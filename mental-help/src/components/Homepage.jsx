@@ -6,8 +6,13 @@ import './homepage.css'
 
 function Homepage(props) {
   return (
-    <div className="homepageDiv" >
-
+    <div className="homepageDiv" style={{
+      backgroundImage: `url("/brain.png")`,
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "5% 100%",
+      height: '700px',
+     
+    }} >
       <h1 className="hp-h1">Welcome</h1>
       <p className="homepage-p">
         Mental Help is a website that allows you to log your feelings and cope
