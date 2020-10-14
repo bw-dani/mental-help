@@ -27,7 +27,7 @@ function Gratitude(props) {
   };
 
   return (
-    <div>
+    <div className="gratitudeDiv">
       <NavBar/>
       <h1> Gratitude Log:</h1>
       <form onSubmit={handleSubmit}>

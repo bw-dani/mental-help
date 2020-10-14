@@ -1,27 +1,80 @@
 html {
-  background-color: #22292b;
+  background-image: url("/brain.png");
+  background-repeat: no-repeat;
+  background-position: 5% 190%;
+  background-color: #32435b;
 }
 .homepageDiv {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: 5%;
+  backdrop-filter: blur(1.2px);
 }
 .hp-h1 {
-  font-size: 4rem;
-  color: whitesmoke;
+  font-family: "Raleway", sans-serif;
+  font-size: 5rem;
+  color: #f3f2f5;
+  filter: brightness(500%);
+  text-shadow: 2px 2px 0 rgb(165, 140, 126);
 }
 .homepage-p {
   margin: 0 90px;
   text-align: center;
-  font-size: 1.5rem;
-  color: white;
+  font-size: 1.9rem;
+  color: #f3f2f5;
+  font-family: "Eczar", serif;
+  filter: brightness(500%);
+  text-shadow: 1px 1px 0 rgb(165, 140, 126);
 }
+
 .divButton {
   display: flex;
   align-self: center;
   margin-top: 5%;
+  position: relative;
+  overflow: hidden;
 }
+
+/* BUTTON STYLE AND ANIMATION */
+.start-btn {
+  background-color: transparent;
+  border: 2px solid #f3f2f5;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  text-decoration: none;
+}
+
+.link-btn {
+  color: #f3f2f5;
+}
+.link-btn,
 .start-btn {
   width: 100%;
+  text-decoration: none;
 }
+.link-btn:hover {
+  box-shadow: 1px 1px 25px 10px rgba(165, 140, 126, 0.404);
+}
+
+.link-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(165, 140, 126, 0.363),
+    transparent
+  );
+  transition: all 850ms;
+}
+
+.link-btn:hover:before {
+  left: 100%;
+}
+/* The button animation was partially taken from Kwin Studio code example */
