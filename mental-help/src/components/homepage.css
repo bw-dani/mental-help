@@ -3,6 +3,7 @@ html {
   background-repeat: no-repeat;
   background-position: 5% 190%;
   background-color: #32435b;
+  /* max-width: 100%; */
 }
 .homepageDiv {
   display: flex;
