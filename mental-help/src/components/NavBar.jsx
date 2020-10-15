@@ -88,10 +88,10 @@ const MobileList = () => {
 }
 
 function NavBar(props) {
-  const [isMobile, setIsMobile] = useState(window.matchMedia('(max-width:768px)').matches);
+  const [isMobile, setIsMobile] = useState(window.matchMedia('(max-width:1024px)').matches);
   useEffect(() => {
     window.addEventListener('resize', () => {
-      setIsMobile(window.matchMedia('(max-width:768px)').matches)
+      setIsMobile(window.matchMedia('(max-width:1024px)').matches)
     })
   })
   return (

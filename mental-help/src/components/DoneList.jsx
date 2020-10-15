@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import NavBar from './NavBar';
 import axios from "axios";
+import './pages-style.css'
 
 
 
@@ -31,21 +32,23 @@ function DoneList(props) {
   return (
     <div>
       <NavBar/>
-      <h1>Done List:</h1>
-      <form onSubmit={handleSubmit}>
+      <h1 className="title">Done List:</h1>
+      <form onSubmit={handleSubmit} className="form">
         <label htmlFor="Done list"></label>
         <input
+          className="input"
           name="Done List"
           type="text"
           value={donelist}
+          placeholder={"List what you have accomplished today!"}
           onChange={(e) => setDoneList(e.target.value)}
         />
-        <button type="submit">Done</button>
+        <button type="submit" className="add-btn">Done</button>
       </form>
-      
+      <div className="input-return">
       {props.doneListData.map((dl) => (
-        <p>{dl.fields.donelist}</p>
-      ))}
+        <span>{dl.fields.donelist}</span>
+      ))}</div>
     </div>
   );
 }

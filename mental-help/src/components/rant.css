@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+
+.rant-title {
+  font-family: "Nosifer", cursive;
+  display: flex;
+  justify-content: center;
+  color: rgb(231, 5, 5);
+  font-size: 3.5rem;
+}
+
+.rant-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.rant-input {
+  font-family: "Eczar", serif;
+
+  width: 500px;
+  margin: 0 0;
+  font-family: Lato;
+  font-size: 1.4em;
+  color: rgb(228, 64, 64);
+  font-weight: bold;
+}
+
+.burn-btn {
+  font-family: "Nosifer", cursive;
+  color: red;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background: #fff;
+  border-radius: 999px;
+}
+
+.burn-btn:hover {
+  animation: burn 1000ms ease-out forwards;
+}
+.burn-btn::before {
+  /* content: ""; */
+  position: absolute;
+  left: 40px;
+  width: 100px;
+  height: 40px;
+  background: rgba(255, 230, 110, 1);
+  border-radius: 100%;
+  animation: flare 1000ms ease-out forwards;
+}
+
+.burn-btn::after {
+  /* content: ""; */
+  position: absolute;
+  right: 40px;
+  width: 100px;
+  height: 40px;
+  background: rgba(255, 230, 110, 1);
+  border-radius: 100%;
+  animation: flare 1000ms ease-out forwards;
+}
+
+@keyframes flare {
+  100% {
+    transform: translateY(-20px) scale(1.5);
+    filter: blur(10px);
+    opacity: 0;
+  }
+}
+
+@keyframes burn {
+  0% {
+    color: rgba(255, 130, 110, 1);
+    background: rgba(255, 230, 110, 1);
+    box-shadow: 0 0 5px 0 rgba(200, 0, 10, 1), 0 0 5px 0 rgba(230, 30, 10, 0.8),
+      0 0 5px 0 rgba(230, 230, 10, 0.6);
+  }
+
+  100% {
+    color: rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 -35px 40px 30px rgba(255, 130, 10, 0),
+      0 -30px 30px 10px rgba(230, 30, 10, 0),
+      0 -20px 10px 0 rgba(255, 255, 10, 0);
+  }
+}

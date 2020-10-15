@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import NavBar from "./NavBar";
-import './gratitude.css'
+import './pages-style.css'
 
 function Gratitude(props) {
   const [gratitudeLog, setGratitudeLog] = useState("");
@@ -31,10 +31,10 @@ function Gratitude(props) {
       <NavBar/>
       <h1 className="title"> Gratitude Log:</h1>
 
-      <form onSubmit={handleSubmit} className="grat-form">
+      <form onSubmit={handleSubmit} className="form">
         
         <input
-          className="grat-input"
+          className="input"
           name="gratitude log"
           type="text"
           value={gratitudeLog}
@@ -44,9 +44,9 @@ function Gratitude(props) {
       
         <button type="submit" className="add-btn">Add Gratitude</button>
       </form>
-      <div className="input-return">
+      <div className="input-return" >
       {props.gratitudeData.map((grat) => (
-        <span >{grat.fields.gratitudeLog}</span>
+        <span key={gratitudeLog.id}>{grat.fields.gratitudeLog}</span>
       ))}</div>
     </div>
   );

@@ -51,7 +51,7 @@ html {
   align-self: center;
   margin-top: 5%;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* BUTTON STYLE AND ANIMATION */
@@ -80,19 +80,19 @@ html {
   content: "";
   position: absolute;
   top: 0;
-  left: -100%;
+  left: -1%;
   width: 100%;
   height: 100%;
   background: linear-gradient(
-    120deg,
+    10deg,
     transparent,
     rgba(165, 140, 126, 0.363),
     transparent
   );
-  transition: all 850ms;
+  transition: all 50ms;
 }
 
 .link-btn:hover:before {
-  left: 100%;
+  left: 1%;
 }
 /* The button animation was partially taken from Kwin Studio code example */

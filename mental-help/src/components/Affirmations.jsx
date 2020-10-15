@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import NavBar from './NavBar';
 import axios from "axios";
+import './pages-style.css'
 
 
 function Affirmations(props) {
@@ -28,21 +29,25 @@ function Affirmations(props) {
 
   return (
     <div>
-<NavBar/>
-      <h1>Affirmations:</h1>
-      <form onSubmit={handleSubmit}>
+      <NavBar/>
+      <h1 className="title">Affirmations:</h1>
+      <form onSubmit={handleSubmit} className="form">
       <label htmlFor="Affirmations log"></label>
         <input
+          className="input"
           type="text"
           name="affirmations"
           value={affirmations}
+          placeholder={"I AM ..."}
           onChange={(e) => setAffirmations(e.target.value)}
         />
-        <button type="submit">Add Affirmations</button>
+        <button type="submit" className="add-btn">Add Affirmations</button>
       </form>
+      <div className="input-return">
       {props.affirmationsData.map((afft) => (
-        <p>{afft.fields.affirmations}</p>
+        <span>{afft.fields.affirmations}</span>
       ))}
+      </div>
     </div>
   );
 }

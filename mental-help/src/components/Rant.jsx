@@ -1,7 +1,7 @@
 import React, { useState }  from 'react';
 import NavBar from './NavBar'
 import axios from "axios";
-
+import './rant.css'
 
 function Rant(props) {
   const [rant, setRant] = useState("")
@@ -26,21 +26,26 @@ function Rant(props) {
   }
 
   return (
-    <div>
+    <div className="rant-div">
       <NavBar/>
-      <h1>Rant:</h1>
-      <form onSubmit={handleSubmit}>
+      <h1 className="rant-title">Rant:</h1>
+      <form onSubmit={handleSubmit} className="rant-form">
         <input
+          id="ranting"
+          className="rant-input"
           type="text"
           name="rant"
           value={rant}
+          placeholder={"What are you mad about today?"}
           onChange={(e) => setRant(e.target.value)}
         />
-        <button type="submit">Add Rant</button>
+        <button type="submit" className="burn-btn" >BURN:</button>
       </form>
+      <div className="input-return">
       {props.rantData.map((rt) => (
-        <p>{rt.fields.rant}</p>
+        <span>{rt.fields.rant}</span>
       ))}
+      </div>
     </div>
   );
 }
