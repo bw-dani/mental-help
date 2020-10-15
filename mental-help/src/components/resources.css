@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.rsc-title {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+h2,
+p {
+  display: flex;
+  justify-content: center;
+  margin: 0 5%;
+  font-family: "Poppins", sans-serif;
+  line-height: 2;
+}
+
+.find-help {
+  display: flex;
+  margin-top: 8%;
+  margin-left: 5%;
+}

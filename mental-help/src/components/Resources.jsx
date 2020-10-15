@@ -7,8 +7,8 @@ function Resources(props) {
     <div className='main-rsc-div'>
     <div >
       <NavBar/>
-      <h1>Resources:</h1>
-      <h2>GROUNDING TECHNIQUES FOR WHEN YOU FEEL ANXIOUS OR OVERWHELMED:</h2>
+      <h1 className="rsc-title">Resources:</h1>
+      <h2 >GROUNDING TECHNIQUES FOR WHEN YOU FEEL ANXIOUS OR OVERWHELMED:</h2>
         <p>
           5: Acknowledge FIVE things you see around you. It could be a pen, a spot on the ceiling, anything in your surroundings.
          <br></br>
@@ -21,11 +21,15 @@ function Resources(props) {
           1: Acknowledge ONE thing you can taste. What does the inside of your mouth taste like—gum, coffee, or the sandwich from lunch?
         </p>
     </div>
-      <div>
+      <div className='find-help'>
         <h1>Find Help: </h1>  
+        
       </div>
     </div>
   );
 }
 
 export default Resources;
+
+
+{/* <a href="https://www.thesitewizard.com/" target="_blank">thesitewizard.com</a> */}
