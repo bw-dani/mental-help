@@ -2,7 +2,7 @@
 
 ## Project Name
 
-Mental Help!
+[Mental Help!](https://mentalhelp.netlify.app/)
 
 ## Project Description
 
@@ -65,31 +65,31 @@ Using Airtable API
 
 | Day           | Deliverable                                        | Status     |
 | ------------- | -------------------------------------------------- | ---------- |
-| October 8     | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
-| October 9     | Project Approval / Initial structure               | Incomplete |
-| October 10/11 | Welcome page and button animation                  | Incomplete |
-| October 12    | Gratitude page and API render                      | Incomplete |
-| October 13    | CSS and style of MVP                               | Incomplete |
-| October 14/15 | reach MVP and start working on Post MVP            | Incomplete |
+| October 8     | Prompt / Wireframes / Priority Matrix / Timeframes | Complete   |
+| October 9     | Project Approval / Initial structure               | Complete   |
+| October 10/11 | Welcome page and button animation                  | Complete   |
+| October 12    | Gratitude page and API render                      | Complete   |
+| October 13    | CSS and style of MVP                               | Complete   |
+| October 14/15 | reach MVP and start working on Post MVP            | Complete   |
 | October 16    | Presentations                                      | Incomplete |
 
 ## Timeframes
 
 | Component             | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------- | :------: | :------------: | :-----------: | :---------: |
-| Creating HomePage     |    H     |      3hrs      |               |             |
-| HomePage Button       |    H     |      1hr       |               |             |
-| Creating Grat. Page   |    H     |      3hrs      |               |             |
-| Add input form        |    H     |      3hrs      |               |             |
-| Render API data       |    H     |      3hrs      |               |             |
-| Create resources page |    H     |      2hrs      |               |             |
-| Style MVP pages       |    H     |      3hrs      |               |             |
-| Add animations        |    M     |      3hrs      |               |             |
-| Create post MVP pages |    M     |      6hrs      |               |             |
-| Render more APIs      |    M     |      6hrs      |               |             |
-| Add info about me     |    L     |      2hrs      |               |             |
-| Add animations        |    L     |      3hrs      |               |             |
-| Total                 |    H     |     38hrs      |               |             |
+| Creating HomePage     |    H     |      3hrs      |     3hrs      |             |
+| HomePage Button       |    H     |      1hr       |      1hr      |             |
+| Creating Grat. Page   |    H     |      3hrs      |     3hrs      |             |
+| Add input form        |    H     |      3hrs      |     3hrs      |             |
+| Render API data       |    H     |      3hrs      |     3hrs      |             |
+| Create resources page |    H     |      2hrs      |     2hrs      |             |
+| Style MVP pages       |    H     |      3hrs      |     3hrs      |             |
+| Add animations        |    M     |      3hrs      |     3hrs      |             |
+| Create post MVP pages |    M     |      6hrs      |     6hrs      |             |
+| Render more APIs      |    M     |      6hrs      |     6hrs      |             |
+| Add info about me     |    L     |      2hrs      |     2hrs      |             |
+| Add animations        |    L     |      3hrs      |     3hrs      |             |
+| Total                 |    H     |     38hrs      |     38hrs     |             |
 
 ## SWOT Analysis
 
