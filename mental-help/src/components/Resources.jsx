@@ -25,6 +25,7 @@ function Resources(props) {
         <h1>Find Help: </h1>  
 
       </div>
+      
     </div>
   );
 }
