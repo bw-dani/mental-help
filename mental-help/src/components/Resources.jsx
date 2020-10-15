@@ -22,8 +22,9 @@ function Resources(props) {
         </p>
     </div>
       <div className='find-help'>
-        <h1>Find Help: </h1>  
-
+        <h1 >Find Help: </h1>
+        <a className='link' href="https://www.sixftover.org/" target='_blanck'>Six feet over website</a>
+        <p className='lifeline'>And if you or someone you know is in crisis, you have options. Please text "SIS" to 741741 to speak with a trained counselor; Call 1-800-273-TALK (8255) for the National Suicide Prevention Lifeline; Call 911; or visit your nearest Emergency Room.</p>
       </div>
       
     </div>

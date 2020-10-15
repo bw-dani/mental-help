@@ -3,6 +3,7 @@
   font-size: 3rem;
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 h2,
@@ -12,10 +13,34 @@ p {
   margin: 0 5%;
   font-family: "Poppins", sans-serif;
   line-height: 2;
+  color: white;
 }
 
 .find-help {
   display: flex;
-  margin-top: 8%;
+  flex-direction: column;
+  margin-top: 5%;
   margin-left: 5%;
+  color: #f3f2f5;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 1.9rem;
+  margin-top: 0.5%;
+  margin-left: 5%;
+  color: #a58c7e;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .rsc-title {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+    padding-bottom: 5px;
+  }
+  .find-help {
+    margin-bottom: 30px;
+  }
 }
