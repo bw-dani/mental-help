@@ -23,7 +23,7 @@ function Resources(props) {
     </div>
       <div className='find-help'>
         <h1>Find Help: </h1>  
-        
+
       </div>
     </div>
   );
@@ -32,4 +32,3 @@ function Resources(props) {
 export default Resources;
 
 
-{/* <a href="https://www.thesitewizard.com/" target="_blank">thesitewizard.com</a> */}
