@@ -24,7 +24,7 @@
   color: rgb(228, 64, 64);
   font-weight: bold;
 }
-
+/* button animation inspired from freefrontend.com */
 .burn-btn {
   font-family: "Nosifer", cursive;
   color: red;
